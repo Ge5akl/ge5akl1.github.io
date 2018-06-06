@@ -1,0 +1,19 @@
+.job-one  {
+	background: url(../assets/news-demura-big-1600x960.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	color: #fff;
+	padding: 50px;
+	color: black;
+	font-size: 25px;
+}
+.job-two {
+	background: url(../assets/web3.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	color: #fff;
+	padding: 50px;
+	color: #541a40;
+	font-size: 25px;
+}
+}

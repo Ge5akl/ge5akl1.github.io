@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="ЦВТ - центр высоких технологий">
+		<meta name="keywords" content="Сайты, веб, студия, заказать, сайт">
+		<meta name="author" content="Borisov">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>ЦВТ - центр высоких технологий.</title>
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="../styles/main.css">
+		<link rel="stylesheet" type="text/css" href="../styles/style-mobile.css">
+		<link rel="stylesheet" type="text/css" href="../styles/news.css">
+	</head>
+	<body>
+		<header>
+			<a href="index.html">
+				<img src="../assets/htc-logo.png" class="img-responsive">
+			</a>
+			<img class="img-responsive burger" src="../assets/if_List_Text_Menu_Numbers_String_Burger_1329080.png">
+			<ul class="list-inline header-ul">
+				<li><a href="../index.html">Домашняя страница</a></li>
+				<li><a href="about.html">История</a></li>
+				<li><a href="job.html">Работа</a></li>
+				<li class="active"><a href="news.html">Новости</a></li>
+			</ul>
+
+		</header>
+		<section class="text-slide">
+			<h1 class="text-center">Новости</h1>
+			<ul class="list-inline header-ul2">
+				<li><a href="../index.html">Домашняя страница</a></li>
+				<li><a href="about.html">История</a></li>
+				<li><a href="job.html">Работа</a></li>
+				<li class="active"><a href="news.html">Новости</a></li>
+			</ul>
+			<p class="text-center"><img class="img-about" src="../assets/years.png">Центр Высоких Технологий — одна из крупнейших ижевских IT-компаний с 18-летней историей. Она появилась в сфере интернет-технологий, когда в России только возникла возможность работать в IT-сфере. Целеустремленность и энтузиазм ижевских программистов, долгая и упорная работа способствовали становлению фирмы. Именно с желания сделать Ижевск комфортным местом для обучения IT-специалистов и обеспечить развитие области в дальнейшем, началось развитие Центра Высоких Технологий. Благодаря чему ЦВТ стал известен не только в Удмуртии, но и за пределами России. </p>
+		</section>
+		<section class="news-section">
+			<h2 class="text-center">Новости</h2>
+			<div class="nn">
+				<div class="news-block" id="n1">
+				<div class="date">10.04.2018</div>
+				<a href="#"><h4>ВНовость</h4></a>
+				<p>Новость</p>
+				<div class="news-foot">
+					<div class="comment" onclick="opencom('c1');">Комментарии (<span id="s1">1</span>)</div>
+					<div class="author">Админ</div>
+				</div>
+				<div class="c1">
+					<div class="comment-block">
+						<img class="img-responsive" src="../assets/if_user-alt_285645.png">
+						<div class="us-name">Матвей</div>
+						<p>Отличная новость! Обожаю вас</p>
+					</div>
+					<div class="ad-com">
+				<div class="ad-tit">Добавить комментарий</div>
+					<form>
+						<input type="text" id="name1" name="name" placeholder="*Имя" required>
+						<textarea name="text" id="text1" placeholder="*Текст" required></textarea>
+						<a href="javascript://" onclick="add('n1');">Отправить</a>
+					</form>
+				</div>
+				</div>
+			<div class="nn">
+				<div class="news-block" id="n2">
+				<div class="date">10.04.2018</div>
+				<a href="#"><h4>fghgfhf</h4></a>
+				<p>Она удивит вас своим творчеством, мы вам гарантируем. Современные дизайны, красивые подходы к вашим задачам</p>
+				<div class="news-foot">
+					<div class="comment" onclick="opencom('c2');">Комментарии (<span id="s2">1</span>)</div>
+					<div class="author">Gerakl</div>
+				</div>
+				<div class="c2">
+					<div class="comment-block">
+						<img class="img-responsive" src="../assets/if_user-alt_285645.png">
+						<div class="us-name">123</div>
+						<p>Отличная новость!</p>
+					</div>
+					<div class="ad-com">
+				<div class="ad-tit">Добавить комментарий</div>
+					<form>
+						<input type="text" id="name1" name="name" placeholder="*Имя" required>
+						<textarea name="text" id="text1" placeholder="*Текст" required></textarea>
+						<a href="javascript://" onclick="add('n1');">Отправить</a>
+					</form>
+				</div>
+			</div>
+		</section>
+		<footer>
+		</footer>
+		<script type="text/javascript" src="../scripts/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="../scripts/burger.js"></script>
+		<script type="text/javascript">
+			function opencom(comid) {
+				if (comid == "c1") {
+					$('.'+comid).toggleClass('com-block');
+				}
+
+				else if (comid == "c2") {
+					$('.'+comid).toggleClass('com-block');
+				}
+			}
+		</script>
+		<footer>
+			<p align="center">2018 год. Copyright ©</p>
+		</footer>
+	</body>
+</html>

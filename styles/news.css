@@ -1,0 +1,10 @@
+.text-slide-main {
+	
+	background: url(../assets/backgroundotr.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+	
+}

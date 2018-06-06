@@ -1,0 +1,16 @@
+.text-slide-main {
+	
+	background: url(../assets/backgroundotr.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+}
+.about_company_udmurt {
+	float: left;
+	padding: 30px;
+}
+.about_company_compass {
+	float: right;
+}
