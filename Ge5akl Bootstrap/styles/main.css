@@ -1,0 +1,148 @@
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	display: grid;
+}
+
+body {
+	font-family: 'PT Sans', sans-serif;
+	display: grid;
+}
+
+header, footer, section {
+	padding: 0px;
+}
+
+section {
+	padding-bottom: 15px;
+}
+
+.header-ul2 li {
+        display: inline-block; /* Строчно-блочные элементы */
+        background: blue; /* Цвет фона */
+        margin-right: 3px; /* Расстояние между пунктами меню */
+        -webkit-transform: skewX(-30deg); /* Для Safari и Chrome */
+        -moz-transform: skewX(-30deg); /* Для Firefox */
+        -o-transform: skewX(-30deg); /* Для Opera */
+        -ms-transform: skewX(-30deg); /* Для IE */
+        transform: skewX(-30deg); /* CSS3 */
+       }
+.header-ul2 a {
+        color: #fff; /* Цвет ссылок */
+        display: block; /* Блочный элемент */
+        padding: 15px ; /* Поля вокруг текста */
+        text-decoration: none; /* Убираем подчёркивание */
+        -webkit-transform: skewX(30deg); /* Для Safari и Chrome */
+        -moz-transform: skewX(30deg); /* Для Firefox */
+        -o-transform: skewX(30deg); /* Для Opera */
+        -ms-transform: skewX(30deg); /* Для IE */
+        transform: skewX(30deg); /* CSS3 */
+       }
+.header-ul2 li:hover {
+        background: white;
+        }
+.header-ul2 a:hover{
+	color: black;
+}
+.top-nav {
+	padding-left: 40px;
+	padding-top: 40px;
+}
+.text-slide1, .about-text, .job-mobile, .job-fronted{
+	padding-top:  0px;
+	padding-left: 40px;
+	padding-right: 20px: 
+}
+
+.text-slide, .MDost {
+	
+	background: url( ../assets/background-mine.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+}
+.img-responsive, .about-america, .disqus_thread {
+	padding-left: 40px;
+}
+.about-text, .text-about, .about-america, .about-udmurt-text, .text-slide-job {
+	padding-top: 20px;
+	padding-right: 40px;
+}
+.about-america-text {
+	padding-top: 14px;
+	padding-left: 0px;
+	padding-right: 50px;
+}
+.dostiheniya img {
+	width: 241px;
+	height: 330px;
+	padding-left: 60px;
+	padding-top: 40px; 
+}
+.dostiheniya2 {
+	padding-top: 29px;
+	padding-left: 0px;
+}
+.header-ul {
+	display: none;
+}
+.burger {
+	display: none;
+	float: right;
+	margin-top: 15px;
+}
+
+.about-udmurt-text {
+	padding-top: 45px; 
+}
+
+.text-slide-about {
+	background: url( ../assets/backgroundotr.jpg);
+	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+
+}
+.job-mobile {
+	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+	background: #919191 url(../assets/section_bg_android.png) bottom right no-repeat;
+}
+.job-fronted {
+
+  	background-size: cover;
+	background-position: 1% 54%;
+	background-attachment: fixed;
+	color: #fff;
+	padding: 25px;
+	background: #009baf url(../assets/section_bg_frontend.png) bottom right no-repeat;
+}
+.news {
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 20px;
+
+}
+.news-border, .news-border2{
+	 border: 4px double black; 
+}
+.news-border2 {
+	padding-top: 20px;
+}
+.a-back {
+	border: 4px; 
+	position: right;
+}
+
